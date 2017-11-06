@@ -1,4 +1,4 @@
-STDEV
+STDEV - Standard Deviation
 =========
 
 A tiny library for calculating Standard Deviation.
@@ -7,15 +7,15 @@ Inputs a dataset array, retrieves the calculated standard deviation as float.
 ## Installation
 
 NPM:
-```npm install stdev --save```
+```npm install standarddeviation --save```
 
 Yarn:
-```yarn add stdev```
+```yarn add standarddeviation```
 
 ## Usage
 
 Require the module in your node project:
-```const stdev = require('stdev')```
+```const stdev = require('standarddeviation')```
 
 Make sure you have a dataset that is an array:
 ```const exampleSet = [0, 1, 2, 3, 4, 5, 6]```
