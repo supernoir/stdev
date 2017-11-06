@@ -7,32 +7,32 @@ Inputs a dataset array, retrieves the calculated standard deviation as float.
 ## Installation
 
 NPM:
-``npm install stdev --save``
+```npm install stdev --save```
 
 Yarn:
-``yarn add stdev``
+```yarn add stdev```
 
 ## Usage
 
 Require the module in your node project:
-``const stdev = require('stdev')``
+```const stdev = require('stdev')```
 
 Make sure you have a dataset that is an array:
-``const exampleSet = [0, 1, 2, 3, 4, 5, 6]``
+```const exampleSet = [0, 1, 2, 3, 4, 5, 6]```
 
 Execute Standard Deviation calculation:
-``const deviation = stdev.calculateStandardDeviation(exampleSet)``
+```const deviation = stdev.calculateStandardDeviation(exampleSet)```
 
 Log the result
-``console.log(deviation)``
+```console.log(deviation)```
 
 Check your console for the result:
-``$ 2.160246899469287``
+```$ 2.160246899469287```
 
 ## Tests
 
 Run mocha/chai:
-``npm test``
+```npm test```
 
 ## Contributing
 
