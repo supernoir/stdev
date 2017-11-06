@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/conny.kawohl/.nvm/versions/node/v6.11.0/bin/node',
+1 verbose cli   '/Users/conny.kawohl/.nvm/versions/node/v6.11.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/conny.kawohl/Sites/dev/stdev',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/conny.kawohl/.npm correctMkdir not in flight; initializing
+10 info lifecycle standarddeviation@0.0.1~prepublish: standarddeviation@0.0.1
+11 silly lifecycle standarddeviation@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/conny.kawohl/.npm/standarddeviation/0.0.1/package.tgz',
+12 verbose tar pack   '/Users/conny.kawohl/Sites/dev/stdev' ]
+13 verbose tarball /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package.tgz
+14 verbose folder /Users/conny.kawohl/Sites/dev/stdev
+15 verbose addLocalTarball adding from inside cache /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package.tgz
+16 verbose correctMkdir /Users/conny.kawohl/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd standarddeviation@0.0.1
+18 verbose afterAdd /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/conny.kawohl/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package/package.json written
+21 silly publish { name: 'standarddeviation',
+21 silly publish   version: '0.0.1',
+21 silly publish   description: 'A tiny node module to calculate Standard Deviation from a given array dataset',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'mocha ./tests/index.js' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/supernoir/stdev.git' },
+21 silly publish   keywords: [ 'standard', 'deviation', 'node', 'es6' ],
+21 silly publish   author:
+21 silly publish    { name: 'Conny Kawohl',
+21 silly publish      email: 'kawohl@supernoir.io',
+21 silly publish      url: 'supernoir.io' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/supernoir/stdev/issues' },
+21 silly publish   homepage: 'https://github.com/supernoir/stdev#readme',
+21 silly publish   readme: 'STDEV - Standard Deviation\n=========\n\nA tiny library for calculating Standard Deviation.\nInputs a dataset array, retrieves the calculated standard deviation as float.\n\n## Installation\n\nNPM:\n```npm install standarddeviation --save```\n\nYarn:\n```yarn add standarddeviation```\n\n## Usage\n\nRequire the module in your node project:\n```const stdev = require(\'standarddeviation\')```\n\nMake sure you have a dataset that is an array:\n```const exampleSet = [0, 1, 2, 3, 4, 5, 6]```\n\nExecute Standard Deviation calculation:\n```const deviation = stdev.calculateStandardDeviation(exampleSet)```\n\nLog the result\n```console.log(deviation)```\n\nCheck your console for the result:\n```$ 2.160246899469287```\n\n## Tests\n\nRun mocha/chai:\n```npm test```\n\n## Contributing\n\nPlease help me in making this module even better. File an issue if something doesn\'t work. Thanks!\n\n#### Contributors\n- supernoir\n\n## Release History\n\n* 0.0.1 Initial release',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '1ac9b45c8b4165ffaca3e4953a32a95f2d2f326c',
+21 silly publish   _id: 'standarddeviation@0.0.1',
+21 silly publish   _shasum: '39ddb65886030223eeabd3b69a3359eb51000a1a',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name standarddeviation
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'standarddeviation',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'standarddeviation',
+26 silly mapToRegistry   name: 'standarddeviation',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/standarddeviation
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/conny.kawohl/.npm/standarddeviation/0.0.1/package.tgz
+30 verbose request uri https://registry.npmjs.org/standarddeviation
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 3:08:56 PM
+33 verbose request using bearer token for auth
+34 verbose request id b1cc59b34e807df2
+35 http request PUT https://registry.npmjs.org/standarddeviation
+36 http 403 https://registry.npmjs.org/standarddeviation
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '91',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 06 Nov 2017 14:08:58 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-ams4421-AMS',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1509977337.428316,VS0,VE890',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /Users/conny.kawohl/.npm/registry.npmjs.org/standarddeviation on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published version 0.0.1. : standarddeviation
+40 verbose stack     at makeError (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/conny.kawohl/.nvm/versions/node/v6.11.0/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid standarddeviation
+43 verbose cwd /Users/conny.kawohl/Sites/dev/stdev
+44 error Darwin 16.4.0
+45 error argv "/Users/conny.kawohl/.nvm/versions/node/v6.11.0/bin/node" "/Users/conny.kawohl/.nvm/versions/node/v6.11.0/bin/npm" "publish"
+46 error node v6.11.0
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published version 0.0.1. : standarddeviation
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

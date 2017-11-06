@@ -44,3 +44,4 @@ Please help me in making this module even better. File an issue if something doe
 ## Release History
 
 * 0.0.1 Initial release
+* 0.0.2 Renames Module to StandardDeviation
