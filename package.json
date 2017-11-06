@@ -1,0 +1,25 @@
+{
+  "name": "stdev",
+  "version": "0.0.1",
+  "description": "A tiny node module to calculate Standard Deviation from a given array dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supernoir/stdev.git"
+  },
+  "keywords": [
+    "standard",
+    "deviation",
+    "node",
+    "es6"
+  ],
+  "author": "Conny Kawohl <kawohl@supernoir.io> (supernoir.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supernoir/stdev/issues"
+  },
+  "homepage": "https://github.com/supernoir/stdev#readme"
+}
